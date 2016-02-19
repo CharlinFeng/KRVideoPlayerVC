@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896602FF1C76E147009C2494 /* KRVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 896602F81C76E147009C2494 /* KRVideoPlayer.bundle */; };
+		896603001C76E147009C2494 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 896602FA1C76E147009C2494 /* .gitkeep */; };
+		896603011C76E147009C2494 /* KRVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 896602FC1C76E147009C2494 /* KRVideoPlayerController.m */; };
+		896603021C76E147009C2494 /* KRVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 896602FE1C76E147009C2494 /* KRVideoPlayerControlView.m */; };
 		89EE608A1BA5B2E700E98DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE60891BA5B2E700E98DFD /* main.m */; };
 		89EE608D1BA5B2E700E98DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE608C1BA5B2E700E98DFD /* AppDelegate.m */; };
 		89EE60901BA5B2E700E98DFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE608F1BA5B2E700E98DFD /* ViewController.m */; };
@@ -14,9 +18,6 @@
 		89EE60951BA5B2E700E98DFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EE60941BA5B2E700E98DFD /* Images.xcassets */; };
 		89EE60981BA5B2E700E98DFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EE60961BA5B2E700E98DFD /* LaunchScreen.xib */; };
 		89EE60A41BA5B2E700E98DFD /* KRVideoPlayerVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE60A31BA5B2E700E98DFD /* KRVideoPlayerVCTests.m */; };
-		89EE60B31BA5B2FB00E98DFD /* KRVideoPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 89EE60AE1BA5B2FB00E98DFD /* KRVideoPlayer.bundle */; };
-		89EE60B41BA5B2FB00E98DFD /* KRVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE60B01BA5B2FB00E98DFD /* KRVideoPlayerController.m */; };
-		89EE60B51BA5B2FB00E98DFD /* KRVideoPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE60B21BA5B2FB00E98DFD /* KRVideoPlayerControlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		896602F81C76E147009C2494 /* KRVideoPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KRVideoPlayer.bundle; sourceTree = "<group>"; };
+		896602FA1C76E147009C2494 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		896602FB1C76E147009C2494 /* KRVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerController.h; sourceTree = "<group>"; };
+		896602FC1C76E147009C2494 /* KRVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerController.m; sourceTree = "<group>"; };
+		896602FD1C76E147009C2494 /* KRVideoPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerControlView.h; sourceTree = "<group>"; };
+		896602FE1C76E147009C2494 /* KRVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerControlView.m; sourceTree = "<group>"; };
 		89EE60841BA5B2E700E98DFD /* KRVideoPlayerVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRVideoPlayerVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EE60881BA5B2E700E98DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EE60891BA5B2E700E98DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,11 +50,6 @@
 		89EE609D1BA5B2E700E98DFD /* KRVideoPlayerVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRVideoPlayerVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EE60A21BA5B2E700E98DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89EE60A31BA5B2E700E98DFD /* KRVideoPlayerVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerVCTests.m; sourceTree = "<group>"; };
-		89EE60AE1BA5B2FB00E98DFD /* KRVideoPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KRVideoPlayer.bundle; sourceTree = "<group>"; };
-		89EE60AF1BA5B2FB00E98DFD /* KRVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerController.h; sourceTree = "<group>"; };
-		89EE60B01BA5B2FB00E98DFD /* KRVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerController.m; sourceTree = "<group>"; };
-		89EE60B11BA5B2FB00E98DFD /* KRVideoPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRVideoPlayerControlView.h; sourceTree = "<group>"; };
-		89EE60B21BA5B2FB00E98DFD /* KRVideoPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRVideoPlayerControlView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		896602F61C76E147009C2494 /* KRVideoPlayerVC */ = {
+			isa = PBXGroup;
+			children = (
+				896602F71C76E147009C2494 /* Lib */,
+			);
+			path = KRVideoPlayerVC;
+			sourceTree = "<group>";
+		};
+		896602F71C76E147009C2494 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				896602F81C76E147009C2494 /* KRVideoPlayer.bundle */,
+				896602F91C76E147009C2494 /* KRVideoPlayerController */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		896602F91C76E147009C2494 /* KRVideoPlayerController */ = {
+			isa = PBXGroup;
+			children = (
+				896602FA1C76E147009C2494 /* .gitkeep */,
+				896602FB1C76E147009C2494 /* KRVideoPlayerController.h */,
+				896602FC1C76E147009C2494 /* KRVideoPlayerController.m */,
+				896602FD1C76E147009C2494 /* KRVideoPlayerControlView.h */,
+				896602FE1C76E147009C2494 /* KRVideoPlayerControlView.m */,
+			);
+			path = KRVideoPlayerController;
+			sourceTree = "<group>";
+		};
 		89EE607B1BA5B2E700E98DFD = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +120,7 @@
 		89EE60861BA5B2E700E98DFD /* KRVideoPlayerVC */ = {
 			isa = PBXGroup;
 			children = (
-				89EE60AD1BA5B2FB00E98DFD /* KRVideoPlayerVC */,
+				896602F61C76E147009C2494 /* KRVideoPlayerVC */,
 				89EE608B1BA5B2E700E98DFD /* AppDelegate.h */,
 				89EE608C1BA5B2E700E98DFD /* AppDelegate.m */,
 				89EE608E1BA5B2E700E98DFD /* ViewController.h */,
@@ -126,18 +157,6 @@
 				89EE60A21BA5B2E700E98DFD /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		89EE60AD1BA5B2FB00E98DFD /* KRVideoPlayerVC */ = {
-			isa = PBXGroup;
-			children = (
-				89EE60AE1BA5B2FB00E98DFD /* KRVideoPlayer.bundle */,
-				89EE60AF1BA5B2FB00E98DFD /* KRVideoPlayerController.h */,
-				89EE60B01BA5B2FB00E98DFD /* KRVideoPlayerController.m */,
-				89EE60B11BA5B2FB00E98DFD /* KRVideoPlayerControlView.h */,
-				89EE60B21BA5B2FB00E98DFD /* KRVideoPlayerControlView.m */,
-			);
-			path = KRVideoPlayerVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EE60931BA5B2E700E98DFD /* Main.storyboard in Resources */,
-				89EE60B31BA5B2FB00E98DFD /* KRVideoPlayer.bundle in Resources */,
+				896602FF1C76E147009C2494 /* KRVideoPlayer.bundle in Resources */,
+				896603001C76E147009C2494 /* .gitkeep in Resources */,
 				89EE60981BA5B2E700E98DFD /* LaunchScreen.xib in Resources */,
 				89EE60951BA5B2E700E98DFD /* Images.xcassets in Resources */,
 			);
@@ -242,9 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89EE60901BA5B2E700E98DFD /* ViewController.m in Sources */,
-				89EE60B41BA5B2FB00E98DFD /* KRVideoPlayerController.m in Sources */,
+				896603011C76E147009C2494 /* KRVideoPlayerController.m in Sources */,
 				89EE608D1BA5B2E700E98DFD /* AppDelegate.m in Sources */,
-				89EE60B51BA5B2FB00E98DFD /* KRVideoPlayerControlView.m in Sources */,
+				896603021C76E147009C2494 /* KRVideoPlayerControlView.m in Sources */,
 				89EE608A1BA5B2E700E98DFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +462,7 @@
 				89EE60A91BA5B2E700E98DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89EE60AA1BA5B2E700E98DFD /* Build configuration list for PBXNativeTarget "KRVideoPlayerVCTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +471,7 @@
 				89EE60AC1BA5B2E700E98DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
